@@ -3,6 +3,12 @@
 ## Purpose of this repo
 Simulation of transient events for the CTA-RTA protoptype.
 
+## Content
+
+* [notebooks/simple_variable_source](notebooks/simple_variable_source) How to generate an event file from a variable source model.
+
+* `playground` Some analysis examples.
+
 ## Some useful links
 
 * The event list are simulated by ctools:
