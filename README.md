@@ -7,7 +7,7 @@ Simulation of transient events for the CTA-RTA protoptype.
 
 * [notebooks/simple_variable_source](notebooks/simple_variable_source) How to generate an event file from a variable source model.
 
-* `playground` Some analysis examples.
+* [playground](playground) Some analysis examples.
 
 ## Some useful links
 
