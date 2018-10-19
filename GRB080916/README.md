@@ -52,3 +52,7 @@ and plotted with show_lightcurve.py and show_spectrum.py, respectively.
 * Plotting the spectrum
   * show_spectrum.py
   * spectrum.png
+
+* 3D cube from ctbin
+  * cntcube.fits
+  * ctbin.log
