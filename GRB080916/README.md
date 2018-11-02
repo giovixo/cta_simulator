@@ -1,6 +1,6 @@
 # CTA simulations of GRB 080916
 
-* The event list of GRB 080916 has been simulated with ctools.
+* The event list of GRB 080916 has been simulated with ctoolsv1.5.2.
 * The input light curve and spectrum are taken from
 the Thomas Gasparetto's GRB database.
 * The light curve is provided as a fits file and the spectrum as an ASCII file.
@@ -44,15 +44,13 @@ and plotted with show_lightcurve.py and show_spectrum.py, respectively.
   * lc.png
 
 
-* Output from csspec
-  * spectrum.fits
-  * csspec.log
+* Selecting the first 100s from file event with ctselect:
+  * selected_events.fits
 
 
-* Plotting the spectrum
-  * show_spectrum.py
-  * spectrum.png
-
-* 3D cube from ctbin
+* 3D cube from ctbin of selected events
   * cntcube.fits
   * ctbin.log
+
+* Maximum likelihood of selected events with ctlike
+  * ctlike_results.xml

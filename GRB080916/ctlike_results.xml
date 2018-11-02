@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<source_library title="source library">
+  <source name="GRB080916009" type="PointSource" ts="6088.611" tscalc="1">
+    <spectrum type="FileFunction" file="/Users/giulia/ANALISI/CTA/SIMULAZIONI/GRB/GRB_Models_Thomas/data/GRB080916009.out">
+      <parameter name="Normalization" value="1.02600845504474" error="0.0311974941469228" scale="1" min="1e-07" max="1000" free="1" />
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter name="RA" value="329.719" scale="1" min="-360" max="360" free="0" />
+      <parameter name="DEC" value="-30.2217" scale="1" min="-90" max="90" free="0" />
+    </spatialModel>
+  </source>
+  <source name="Background" type="CTAIrfBackground" instrument="CTA">
+    <spectrum type="PowerLaw">
+      <parameter name="Prefactor" value="0.951685655073006" error="0.289223566732675" scale="1" min="1e-07" max="1000" free="1" />
+      <parameter name="Index" value="0.0193262285300429" error="0.161928091981449" scale="-1" min="0" max="10" free="1" />
+      <parameter name="Scale" value="300000" scale="1" min="0" max="10000000" free="0" />
+    </spectrum>
+  </source>
+</source_library>

@@ -1,0 +1,122 @@
+2018-11-02T12:27:18: ********************************************************************************
+2018-11-02T12:27:18: *                                    ctlike                                    *
+2018-11-02T12:27:18: * ---------------------------------------------------------------------------- *
+2018-11-02T12:27:18: * Version: 1.5.2                                                               *
+2018-11-02T12:27:18: ********************************************************************************
+2018-11-02T12:28:00: +============+
+2018-11-02T12:28:00: | Parameters |
+2018-11-02T12:28:00: +============+
+2018-11-02T12:28:00:  inobs .....................: selected_events.fits
+2018-11-02T12:28:00:  inmodel ...................: GRB080916009_notemporalmodel.xml
+2018-11-02T12:28:00:  expcube ...................: [not queried]
+2018-11-02T12:28:00:  psfcube ...................: [not queried]
+2018-11-02T12:28:00:  edispcube .................: [not queried]
+2018-11-02T12:28:00:  bkgcube ...................: [not queried]
+2018-11-02T12:28:00:  caldb .....................: prod2
+2018-11-02T12:28:00:  irf .......................: South_0.5h
+2018-11-02T12:28:00:  edisp .....................: no
+2018-11-02T12:28:00:  outmodel ..................: ctlike_results.xml
+2018-11-02T12:28:00:  outcovmat .................: NONE
+2018-11-02T12:28:00:  statistic .................: DEFAULT
+2018-11-02T12:28:00:  refit .....................: no
+2018-11-02T12:28:00:  fix_spat_for_ts ...........: no
+2018-11-02T12:28:00:  chatter ...................: 2
+2018-11-02T12:28:00:  clobber ...................: yes
+2018-11-02T12:28:00:  debug .....................: no
+2018-11-02T12:28:00:  mode ......................: ql
+2018-11-02T12:28:00:  logfile ...................: ctlike.log
+2018-11-02T12:28:00: 
+2018-11-02T12:28:00: +===================+
+2018-11-02T12:28:00: | Input observation |
+2018-11-02T12:28:00: +===================+
+2018-11-02T12:28:00: === GObservations ===
+2018-11-02T12:28:00:  Number of observations ....: 1
+2018-11-02T12:28:00:  Number of models ..........: 2
+2018-11-02T12:28:00:  Number of observed events .: 1521
+2018-11-02T12:28:00:  Number of predicted events : 0
+2018-11-02T12:28:00: 
+2018-11-02T12:28:00: +=================================+
+2018-11-02T12:28:00: | Maximum likelihood optimisation |
+2018-11-02T12:28:00: +=================================+
+2018-11-02T12:28:00:  >Iteration   0: -logL=-1655.454, Lambda=1.0e-03
+2018-11-02T12:28:00:  >Iteration   1: -logL=-1655.843, Lambda=1.0e-03, delta=0.388, step=1.0e+00, max(|grad|)=-0.856220 [Index:5]
+2018-11-02T12:28:00:  >Iteration   2: -logL=-1655.843, Lambda=1.0e-04, delta=0.001, step=1.0e+00, max(|grad|)=-0.026500 [Index:5]
+2018-11-02T12:28:00: 
+2018-11-02T12:28:00: +====================================+
+2018-11-02T12:28:00: | Maximum likelihood re-optimisation |
+2018-11-02T12:28:00: +====================================+
+2018-11-02T12:28:01:  >Iteration   0: -logL=2291.038, Lambda=1.0e-03
+2018-11-02T12:28:01:  >Iteration   1: -logL=1664.837, Lambda=1.0e-03, delta=626.201, step=1.0e+00, max(|grad|)=-1423.619013 [Index:1]
+2018-11-02T12:28:01:  >Iteration   2: -logL=1414.432, Lambda=1.0e-04, delta=250.405, step=1.0e+00, max(|grad|)=-504.992862 [Index:1]
+2018-11-02T12:28:01:  >Iteration   3: -logL=1388.913, Lambda=1.0e-05, delta=25.520, step=1.0e+00, max(|grad|)=-70.525153 [Index:1]
+2018-11-02T12:28:01:  >Iteration   4: -logL=1388.462, Lambda=1.0e-06, delta=0.450, step=1.0e+00, max(|grad|)=-1.149700 [Index:1]
+2018-11-02T12:28:01:  >Iteration   5: -logL=1388.462, Lambda=1.0e-07, delta=0.000, step=1.0e+00, max(|grad|)=-0.003513 [Index:1]
+2018-11-02T12:28:01: 
+2018-11-02T12:28:01: +============================================+
+2018-11-02T12:28:01: | Maximum likelihood re-optimisation results |
+2018-11-02T12:28:01: +============================================+
+2018-11-02T12:28:01: === GOptimizerLM ===
+2018-11-02T12:28:01:  Optimized function value ..: 1388.462
+2018-11-02T12:28:01:  Absolute precision ........: 0.005
+2018-11-02T12:28:01:  Acceptable value decrease .: 2
+2018-11-02T12:28:01:  Optimization status .......: converged
+2018-11-02T12:28:01:  Number of parameters ......: 4
+2018-11-02T12:28:01:  Number of free parameters .: 2
+2018-11-02T12:28:01:  Number of iterations ......: 5
+2018-11-02T12:28:01:  Lambda ....................: 1e-08
+2018-11-02T12:28:01: 
+2018-11-02T12:28:01: +=========================================+
+2018-11-02T12:28:01: | Maximum likelihood optimisation results |
+2018-11-02T12:28:01: +=========================================+
+2018-11-02T12:28:01: === GOptimizerLM ===
+2018-11-02T12:28:01:  Optimized function value ..: -1655.843
+2018-11-02T12:28:01:  Absolute precision ........: 0.005
+2018-11-02T12:28:01:  Acceptable value decrease .: 2
+2018-11-02T12:28:01:  Optimization status .......: converged
+2018-11-02T12:28:01:  Number of parameters ......: 8
+2018-11-02T12:28:01:  Number of free parameters .: 3
+2018-11-02T12:28:01:  Number of iterations ......: 2
+2018-11-02T12:28:01:  Lambda ....................: 1e-05
+2018-11-02T12:28:01:  Maximum log likelihood ....: 1655.843
+2018-11-02T12:28:01:  Observed events  (Nobs) ...: 1521.000
+2018-11-02T12:28:01:  Predicted events (Npred) ..: 1520.986 (Nobs - Npred = 0.0143700475980495)
+2018-11-02T12:28:01: === GModels ===
+2018-11-02T12:28:01:  Number of models ..........: 2
+2018-11-02T12:28:01:  Number of parameters ......: 8
+2018-11-02T12:28:01: === GModelSky ===
+2018-11-02T12:28:01:  Name ......................: GRB080916009
+2018-11-02T12:28:01:  Instruments ...............: all
+2018-11-02T12:28:01:  Test Statistic ............: 6088.61144665525
+2018-11-02T12:28:01:  Instrument scale factors ..: unity
+2018-11-02T12:28:01:  Observation identifiers ...: all
+2018-11-02T12:28:01:  Model type ................: PointSource
+2018-11-02T12:28:01:  Model components ..........: "SkyDirFunction" * "FileFunction" * "Constant"
+2018-11-02T12:28:01:  Number of parameters ......: 4
+2018-11-02T12:28:01:  Number of spatial par's ...: 2
+2018-11-02T12:28:01:   RA .......................: 329.719 [-360,360] deg (fixed,scale=1)
+2018-11-02T12:28:01:   DEC ......................: -30.2217 [-90,90] deg (fixed,scale=1)
+2018-11-02T12:28:01:  Number of spectral par's ..: 1
+2018-11-02T12:28:01:   Normalization ............: 1.02600845504474 +/- 0.0311974941469228 [1e-07,1000]  (free,scale=1,gradient)
+2018-11-02T12:28:01:  Number of temporal par's ..: 1
+2018-11-02T12:28:01:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2018-11-02T12:28:01: === GCTAModelIrfBackground ===
+2018-11-02T12:28:01:  Name ......................: Background
+2018-11-02T12:28:01:  Instruments ...............: CTA
+2018-11-02T12:28:01:  Instrument scale factors ..: unity
+2018-11-02T12:28:01:  Observation identifiers ...: all
+2018-11-02T12:28:01:  Model type ................: "PowerLaw" * "Constant"
+2018-11-02T12:28:01:  Number of parameters ......: 4
+2018-11-02T12:28:01:  Number of spectral par's ..: 3
+2018-11-02T12:28:01:   Prefactor ................: 0.951685655073006 +/- 0.289223566732675 [1e-07,1000] ph/cm2/s/MeV (free,scale=1,gradient)
+2018-11-02T12:28:01:   Index ....................: -0.0193262285300429 +/- 0.161928091981449 [-0,-10]  (free,scale=-1,gradient)
+2018-11-02T12:28:01:   Scale ....................: 300000 [0,10000000] MeV (fixed,scale=1,gradient)
+2018-11-02T12:28:01:  Number of temporal par's ..: 1
+2018-11-02T12:28:01:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2018-11-02T12:28:01: 
+2018-11-02T12:28:01: +==============+
+2018-11-02T12:28:01: | Save results |
+2018-11-02T12:28:01: +==============+
+2018-11-02T12:28:01:  Model definition file .....: ctlike_results.xml
+2018-11-02T12:28:01:  Covariance matrix file ....: NONE
+2018-11-02T12:28:01: 
+2018-11-02T12:28:01: Application "ctlike" terminated after 43 wall clock seconds, consuming 9.64899 seconds of CPU time.
